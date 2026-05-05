@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Import Premium Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-brown: #2a1d19;
+  --accent-yellow: #ffc107;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #111827;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Custom utility for the elegant brand look */
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
