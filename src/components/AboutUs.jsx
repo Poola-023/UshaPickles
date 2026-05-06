@@ -100,9 +100,9 @@ function AboutUs() {
         </p>
         <div className="mt-auto flex flex-col items-center">
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ffc107] mb-3">
-            <img src="/src/img/srihari.jpg" alt="Sri Hari" className="w-full h-full object-cover" />
+            <img src="/src/img/Natasha.webp" alt="Sri Hari" className="w-full h-full object-cover" />
           </div>
-          <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Sri Hari</p>
+          <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Natasha</p>
         </div>
       </div>
 
@@ -118,9 +118,9 @@ function AboutUs() {
         </p>
         <div className="mt-auto flex flex-col items-center">
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ffc107] mb-3">
-            <img src="/src/img/geetha.jpg" alt="Geetha" className="w-full h-full object-cover" />
+            <img src="/src/img/ProfilePic.jpeg" alt="Geetha" className="w-full h-full object-cover" />
           </div>
-          <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Geetha</p>
+          <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Pardhu</p>
         </div>
       </div>
 
@@ -136,9 +136,9 @@ function AboutUs() {
         </p>
         <div className="mt-auto flex flex-col items-center">
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ffc107] mb-3">
-            <img src="/src/img/phani.jpg" alt="Phani" className="w-full h-full object-cover" />
+            <img src="/src/img/Navya.webp" alt="Phani" className="w-full h-full object-cover" />
           </div>
-          <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Phani</p>
+          <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Navya</p>
         </div>
       </div>
 

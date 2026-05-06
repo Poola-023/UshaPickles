@@ -6,12 +6,14 @@ import AboutUs from "./components/AboutUs";
 import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
     <CartProvider> {/* 2. Provider MUST wrap the Router */}
       <Router>
+        <ScrollToTop /> {/* 3. ScrollToTop should be inside Router to access location */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
