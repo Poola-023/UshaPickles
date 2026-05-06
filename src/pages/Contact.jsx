@@ -101,7 +101,7 @@ function Contact() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4 text-sm font-medium text-gray-600">
                   <div className="text-[#ffc107]"><User size={20} /></div>
-                  <span>Gunji Ushasri</span>
+                  <span>Poola Parthasarathi</span>
                 </div>
                 
                 <div className="flex items-start gap-4 text-sm font-medium text-gray-600">
