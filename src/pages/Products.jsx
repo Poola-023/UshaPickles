@@ -3,6 +3,32 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ProductCard from "../components/ProductCard";
 
+// --- 1. IMPORT ALL IMAGES ---
+import amlaImg from '../img/veg_amla_pickle.jpg';
+import gingerImg from '../img/veg_ginger_pickle.jpg';
+import gonguraChilliImg from '../img/veg_gongura_chilli_pickle.jpg';
+import gonguraPanduImg from '../img/veg_gongura_pandu_pickle.jpg';
+import kakarakaiImg from '../img/veg_kakarakai_pickle.jpg';
+import lemonImg from '../img/veg_lemon_pickle.jpg';
+import mangoImg from '../img/veg_mango_pickle.jpg';
+import mixedImg from '../img/veg_mixed_pickle.jpg';
+import tomatoImg from '../img/veg_tomato_pickle.jpg';
+
+import chickenBoneImg from '../img/nonveg_chicken_pickle.jpg';
+import chickenBonelessImg from '../img/nonveg_chicken_boneless.jpg';
+import gonguraChickenImg from '../img/nonveg_gongura_chicken.jpg';
+import muttonImg from '../img/nonveg_mutton_boneless_pickle.jpg';
+import prawnImg from '../img/nonveg_prawn_pickle.jpg';
+
+import chilliPowderImg from '../img/fine_chilli_powder.jpg';
+import biryaniMasalaImg from '../img/biryani_masala.jpg';
+import karivepakuImg from '../img/karevepaku_karam.jpg';
+import munagakuImg from '../img/powder_munagaku.jpg';
+import nuvvuluImg from '../img/nuvvulu.jpg';
+
+import gheeImg from '../img/buffalo_ghee.jpg';
+import dryFruitImg from '../img/sweet_dry_fruit_laddu.jpg';
+import sunnundaImg from '../img/sweet_kajju_sunnunda.jpg';
 
 const allProducts = [
   { 
@@ -11,7 +37,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Traditional Indian style extra red and spicy Amla pickle in a premium jar.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_amla_pickle.jpg" 
+    image: amlaImg 
   },
   { 
     id: 2, 
@@ -19,7 +45,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Authentic ginger paste pickle with a perfect balance of spice and tang.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_ginger_pickle.jpg" 
+    image: gingerImg 
   },
   { 
     id: 3, 
@@ -27,7 +53,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Fiery green chillies blended with tangy sorrel leaves (Gongura).", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_gongura_chilli_pickle.jpg" 
+    image: gonguraChilliImg 
   },
   { 
     id: 4, 
@@ -35,7 +61,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Ripe red chillies and Gongura leaves crafted for an explosion of flavor.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_gongura_pandu_pickle.jpg" 
+    image: gonguraPanduImg 
   },
   { 
     id: 5, 
@@ -43,7 +69,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Nutritious bitter gourd pieces treated with traditional spices to perfection.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_kakarakai_pickle.jpg" 
+    image: kakarakaiImg 
   },
   { 
     id: 6, 
@@ -51,7 +77,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Classic sun-cured lemons with a thick, spicy, and tangy gravy.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_lemon_pickle.jpg" 
+    image: lemonImg 
   },
   { 
     id: 7, 
@@ -59,7 +85,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "The King of pickles—authentic Andhra Avakaya with mustard and oil.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_mango_pickle.jpg" 
+    image: mangoImg 
   },
   { 
     id: 8, 
@@ -67,7 +93,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "A colorful blend of seasonal vegetables preserved in aromatic spices.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_mixed_pickle.jpg" 
+    image: mixedImg 
   },
   { 
     id: 9, 
@@ -75,7 +101,7 @@ const allProducts = [
     category: "Veg Pickles", 
     description: "Tangy, sun-dried tomatoes finely chopped and aged in a glass jar.", 
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/src/img/veg_tomato_pickle.jpg" 
+    image: tomatoImg 
   },
   // --- NON-VEG PICKLES ---
   { 
@@ -84,7 +110,7 @@ const allProducts = [
     category: "Non-Veg Pickles", 
     description: "Spicy and aromatic chicken pickle made with traditional bone-in pieces.", 
     prices: { "1/4 KG": 289, "1/2 KG": 549, "1 KG": 999 }, 
-    image: "/src/img/nonveg_chicken_pickle.jpg" 
+    image: chickenBoneImg 
   },
   { 
     id: 11, 
@@ -92,7 +118,7 @@ const allProducts = [
     category: "Non-Veg Pickles", 
     description: "Tender boneless chicken chunks marinated in premium spices and oil.", 
     prices: { "1/4 KG": 289, "1/2 KG": 549, "1 KG": 999 }, 
-    image: "/src/img/nonveg_chicken_boneless.jpg" 
+    image: chickenBonelessImg 
   },
   { 
     id: 12, 
@@ -100,7 +126,7 @@ const allProducts = [
     category: "Non-Veg Pickles", 
     description: "The perfect blend of tangy Gongura leaves and spicy chicken.", 
     prices: { "1/4 KG": 289, "1/2 KG": 549, "1 KG": 999 }, 
-    image: "/src/img/nonveg_gongura_chicken.jpg" 
+    image: gonguraChickenImg 
   },
   { 
     id: 13, 
@@ -108,7 +134,7 @@ const allProducts = [
     category: "Non-Veg Pickles", 
     description: "Rich and flavorful boneless mutton pickle, a true delicacy.", 
     prices: { "1/4 KG": 350, "1/2 KG": 680, "1 KG": 1250 }, // Example higher price for Mutton
-    image: "/src/img/nonveg_mutton_boneless_pickle.jpg" 
+    image: muttonImg 
   },
   { 
     id: 14, 
@@ -116,7 +142,7 @@ const allProducts = [
     category: "Non-Veg Pickles", 
     description: "Freshly caught prawns pickled with a fiery spice mix.", 
     prices: { "1/4 KG": 289, "1/2 KG": 549, "1 KG": 999 }, 
-    image: "/src/img/nonveg_prawn_pickle.jpg" 
+    image: prawnImg 
   },
 
   // --- POWDERS ---
@@ -126,7 +152,7 @@ const allProducts = [
     category: "Powders", 
     description: "Superior quality sun-dried chillies ground to a fine, spicy powder.", 
     prices: { "1/4 KG": 100, "1/2 KG": 190, "1 KG": 350 }, // Update as needed
-    image: "/src/img/fine_chilli_powder.jpg" 
+    image: chilliPowderImg 
   },
   { 
     id: 21, 
@@ -134,7 +160,7 @@ const allProducts = [
     category: "Powders", 
     description: "A secret blend of whole spices for the perfect homemade Biryani.", 
     prices: { "1/4 KG": 150, "1/2 KG": 280, "1 KG": 500 }, 
-    image: "/src/img/biryani_masala.jpg" 
+    image: biryaniMasalaImg 
   },
   { 
     id: 22, 
@@ -142,7 +168,7 @@ const allProducts = [
     category: "Powders", 
     description: "Healthy and tasty curry leaf spice powder, perfect for rice and idli.", 
     prices: { "1/4 KG": 120, "1/2 KG": 220, "1 KG": 400 }, 
-    image: "/src/img/karevepaku_karam.jpg" 
+    image: karevepakuKaramImg 
   },
   { 
     id: 23, 
@@ -150,7 +176,7 @@ const allProducts = [
     category: "Powders", 
     description: "Superfood Moringa leaves processed into a nutritious spice blend.", 
     prices: { "1/4 KG": 130, "1/2 KG": 240, "1 KG": 450 }, 
-    image: "/src/img/powder_munagaku.jpg" 
+    image: munagakuImg 
   },
   { 
     id: 24, 
@@ -158,7 +184,7 @@ const allProducts = [
     category: "Powders", 
     description: "Roasted sesame seeds ground into a flavorful, nutty powder.", 
     prices: { "1/4 KG": 110, "1/2 KG": 200, "1 KG": 380 }, 
-    image: "/src/img/nuvvulu.jpg" 
+    image: nuvvuluImg 
   },
 
   // --- HOME MADE SWEETS ---
@@ -168,7 +194,7 @@ const allProducts = [
     category: "Home Made Sweets", 
     description: "Pure, aromatic homemade buffalo ghee with a traditional grainy texture.", 
     prices: { "1/4 KG": 229, "1/2 KG": 449, "1 KG": 899 }, // Ghee usually sold in larger units
-    image: "/src/img/buffalo_ghee.jpg" 
+    image: buffaloGheeImg 
   },
   { 
     id: 31, 
@@ -176,7 +202,7 @@ const allProducts = [
     category: "Home Made Sweets", 
     description: "Healthy and sugar-free laddus packed with premium dry fruits and nuts.", 
     prices: { "1/4 KG": 250, "1/2 KG": 480, "1 KG": 900 }, 
-    image: "/src/img/sweet_dry_fruit_laddu.jpg" 
+    image: dryFruitLadduImg 
   },
   { 
     id: 32, 
@@ -184,7 +210,7 @@ const allProducts = [
     category: "Home Made Sweets", 
     description: "Traditional Urad Dal laddus enriched with cashews and pure ghee.", 
     prices: { "1/4 KG": 200, "1/2 KG": 380, "1 KG": 700 }, 
-    image: "/src/img/sweet_kajju_sunnunda.jpg" 
+    image: kajjuSunnundaImg 
   }
 ];
 
