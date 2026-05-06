@@ -4,6 +4,11 @@ import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import contactImg from '../img/img.png';
 
+import mangoImg from '../img/veg_mango_pickle.jpg';
+import gonguraImg from '../img/veg_gongura_chilli_pickle.jpg';
+import chickenImg from '../img/nonveg_chicken_pickle.jpg';
+import lemonImg from '../img/veg_lemon_pickle.jpg';
+
 const pickleProducts = [
   { 
     id: 7, 
@@ -12,7 +17,7 @@ const pickleProducts = [
     description: "Traditional Andhra style mango pickle.",
     // ADD THIS PRICES OBJECT:
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/img/veg_mango_pickle.jpg" 
+    image: mangoImg 
   },
   { 
     id: 2, 
@@ -20,7 +25,7 @@ const pickleProducts = [
     category: "Veg Pickles", 
     description: "Tangy and spicy Roselle leaf pickle.",
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/img/veg_gongura_chilli_pickle.jpg" 
+    image: gonguraImg 
   },
   { 
     id: 10, 
@@ -28,7 +33,7 @@ const pickleProducts = [
     category: "Non-Veg Pickles", 
     description: "Spicy boneless chicken pickle with aromatic spices.",
     prices: { "1/4 KG": 289, "1/2 KG": 549, "1 KG": 999 }, 
-    image: "/img/nonveg_chicken_pickle.jpg" 
+    image: chickenImg 
   },
   { 
     id: 4, 
@@ -36,7 +41,7 @@ const pickleProducts = [
     category: "Veg Pickles", 
     description: "Zesty and refreshing traditional lemon pickle.",
     prices: { "1/4 KG": 169, "1/2 KG": 319, "1 KG": 599 }, 
-    image: "/img/veg_lemon_pickle.jpg" 
+    image: lemonImg 
   }
 ];
 
