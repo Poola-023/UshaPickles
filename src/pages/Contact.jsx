@@ -111,12 +111,12 @@ function Contact() {
 
                 <div className="flex items-center gap-4 text-sm font-medium text-gray-600">
                   <div className="text-[#ffc107]"><Mail size={20} /></div>
-                  <span>gunjiushasri999.com</span>
+                  <span>poolaparthasarathi@gmail.com</span>
                 </div>
 
                 <div className="flex items-center gap-4 text-sm font-medium text-gray-600">
                   <div className="text-[#ffc107]"><Phone size={20} /></div>
-                  <span>+91 9676045142</span>
+                  <span>+91 9133424340</span>
                 </div>
 
                 <button className="w-full bg-[#25d366] hover:bg-[#1da851] text-white py-4 rounded-3xl font-bold flex items-center justify-center gap-3 transition-all mt-4">
