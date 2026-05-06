@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import UshaImg from '../img/Usha.jpeg';
+import UshaImg from '../img/Usha';
 import NatashaImg from '../img/Natasha.webp';
 import PardhuImg from '../img/ProfilePic.jpeg';
 import NavyaImg from '../img/Navya.webp';
