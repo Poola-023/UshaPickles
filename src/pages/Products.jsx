@@ -27,7 +27,7 @@ import munagakuImg from '../img/powder_munagaku.jpg';
 import nuvvuluImg from '../img/nuvvulu.jpg';
 
 import gheeImg from '../img/buffalo_ghee.jpg';
-import dryFruitImg from '../img/sweet_dry_fruit_laddu.jpg';
+import dryFruitLadduImg from '../img/sweet_dry_fruit_laddu.jpg';
 import sunnundaImg from '../img/sweet_kajju_sunnunda.jpg';
 
 const allProducts = [
@@ -168,7 +168,7 @@ const allProducts = [
     category: "Powders", 
     description: "Healthy and tasty curry leaf spice powder, perfect for rice and idli.", 
     prices: { "1/4 KG": 120, "1/2 KG": 220, "1 KG": 400 }, 
-    image: karevepakuKaramImg 
+    image: karivepakuImg 
   },
   { 
     id: 23, 
@@ -189,12 +189,12 @@ const allProducts = [
 
   // --- HOME MADE SWEETS ---
   { 
-    id: 30, 
+    id: 30,
     name: "Buffalo Ghee", 
     category: "Home Made Sweets", 
     description: "Pure, aromatic homemade buffalo ghee with a traditional grainy texture.", 
     prices: { "1/4 KG": 229, "1/2 KG": 449, "1 KG": 899 }, // Ghee usually sold in larger units
-    image: buffaloGheeImg 
+    image: gheeImg 
   },
   { 
     id: 31, 
@@ -210,7 +210,7 @@ const allProducts = [
     category: "Home Made Sweets", 
     description: "Traditional Urad Dal laddus enriched with cashews and pure ghee.", 
     prices: { "1/4 KG": 200, "1/2 KG": 380, "1 KG": 700 }, 
-    image: kajjuSunnundaImg 
+    image: sunnundaImg 
   }
 ];
 
