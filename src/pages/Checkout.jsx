@@ -23,8 +23,8 @@ function Checkout() {
   const totalAmount = subtotal + deliveryCharge;
   
   // 3. Business Details
-  const myUpiId = "9133424340@ptsbi"; // Your UPI ID
-  const myWhatsAppNumber = "919133424340"; // Your Number with Country Code
+  const myUpiId = "9676045@axl"; // Your UPI ID
+  const myWhatsAppNumber = "919676045142"; // Your Number with Country Code
 
   // 4. WhatsApp Automation Logic
   const handlePaymentDone = () => {
