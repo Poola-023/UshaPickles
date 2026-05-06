@@ -54,10 +54,10 @@ function AboutUs() {
                 At <strong className="text-[#2a1d19]">Usha Pickles</strong>, we believe that the best flavors are those shared across generations. What started in a small home kitchen in Hyderabad has grown into a mission to bring authentic, handmade pickles to your table.[cite: 1]
               </p>
               <p>
-                Every batch is crafted using the same time-tested methods our grandmothers used—hand-picking the freshest seasonal produce, sun-drying spices, and aging them to perfection in premium oils.[cite: 1]
+                Every batch is crafted using the same time-tested methods our grandmothers used—hand-picking the freshest seasonal produce, sun-drying spices, and aging them to perfection in premium oils.
               </p>
               <div className="italic font-medium text-gray-800 border-l-4 border-[#ffc107] pl-6 bg-yellow-50 p-6 rounded-r-2xl shadow-sm">
-                "No artificial preservatives, no shortcuts. Just pure, soulful tradition."[cite: 1]
+                "No artificial preservatives, no shortcuts. Just pure, soulful tradition."
               </div>
             </div>
 
@@ -65,12 +65,12 @@ function AboutUs() {
             <div className="mt-12 flex flex-wrap gap-10 border-t border-gray-200 pt-10 w-full">
               <div className="flex flex-col">
                 <p className="text-4xl font-black text-[#d32f2f]">100%</p>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Natural Ingredients[cite: 1]</p>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Natural Ingredients</p>
               </div>
               <div className="h-12 w-px bg-gray-200 hidden sm:block"></div>
               <div className="flex flex-col">
                 <p className="text-4xl font-black text-[#d32f2f]">50+</p>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Years of Tradition[cite: 1]</p>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mt-1">Years of Tradition</p>
               </div>
             </div>
           </div>
