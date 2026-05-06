@@ -1,6 +1,9 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import UshaImg from '../img/Usha.jpeg';
+import NatashaImg from '../img/Natasha.webp';
+import PardhuImg from '../img/ProfilePic.jpeg';
+import NavyaImg from '../img/Navya.webp';
 
 function AboutUs() {
   return (
@@ -100,7 +103,7 @@ function AboutUs() {
         </p>
         <div className="mt-auto flex flex-col items-center">
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ffc107] mb-3">
-            <img src="/src/img/Natasha.webp" alt="Sri Hari" className="w-full h-full object-cover" />
+            <img src={NatashaImg} alt="Sri Hari" className="w-full h-full object-cover" />
           </div>
           <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Natasha</p>
         </div>
@@ -118,7 +121,7 @@ function AboutUs() {
         </p>
         <div className="mt-auto flex flex-col items-center">
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ffc107] mb-3">
-            <img src="/src/img/ProfilePic.jpeg" alt="Geetha" className="w-full h-full object-cover" />
+            <img src={PardhuImg} alt="Geetha" className="w-full h-full object-cover" />
           </div>
           <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Pardhu</p>
         </div>
@@ -136,7 +139,7 @@ function AboutUs() {
         </p>
         <div className="mt-auto flex flex-col items-center">
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ffc107] mb-3">
-            <img src="/src/img/Navya.webp" alt="Phani" className="w-full h-full object-cover" />
+            <img src={NavyaImg} alt="Phani" className="w-full h-full object-cover" />
           </div>
           <p className="font-bold text-[#d32f2f] uppercase tracking-wider text-sm">Navya</p>
         </div>
